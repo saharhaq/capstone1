@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Welcome To RN to BSN Program</title>
+
+  <link rel="stylesheet" href="../normalize.css">
+  <link rel="stylesheet" href="../foundation.css">
+  <link rel="stylesheet" type="text/css" href="new.css">
+  <script src="../custom.modernizr.js"></script>
+
+</head>
+<body>
+
+
+<!-- Header and Nav -->
+  
+  <div class="row">
+    <div class="large-3 columns">
+      <h1><img src="http://placehold.it/400x100&text=Logo" /></h1>
+    </div>
+    <div class="large-9 columns">
+      <ul class="inline-list right">
+        <?php
+session_start();
+if (empty($_SESSION['ProfessorID'])) {
+	//echo '<li><p>Please log in to continue</p></li>';
+	//echo '<li><a href="index.html" class="button">Login here</a></li>';
+ }
+ else {
+  
+  
+  
+  echo '<li><a href="changepassword.php">Change password</a></li>';
+  
+ 
+  //echo '<li><img src="browardcollegelogo.jpg" alt="welcome"></li>';
+  echo '<li><a href="createadmin.php">Create Admin</a></li>';
+  echo '<li><a href="createstudents.php">Create Students</a></li>';
+  echo '<li><a href="Changestudentpassword.php">Change Student Password</a></li>';
+  //echo '<a href="NUR4945L.php">NUR4945L<a/><br />';
+  echo '<li><a href="logout.php">LOGOUT</a></li>';
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+?>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- End Header and Nav -->
+  
+  
+  <div class="row">    
+    
+    <!-- Main Content Section -->
+    <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+    <div class="large-9 push-3 columns">
