@@ -3,7 +3,9 @@
 	require('header.html');  
 ?>
       
-        <h2>Welcome RN to BSN Students</h2>
+        <h2>Welcome RN to BSN Admin</h2>
+		
+		 <img src="Symbol-of-Medicine-300x300.png" />
       
       
    <?php
