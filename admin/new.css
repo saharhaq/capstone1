@@ -1,5 +1,18 @@
 body {
-background-color: #00A2E8;
+background-image: linear-gradient(bottom, rgb(212,212,212) 13%, rgb(86,186,239) 57%);
+background-image: -o-linear-gradient(bottom, rgb(212,212,212) 13%, rgb(86,186,239) 57%);
+background-image: -moz-linear-gradient(bottom, rgb(212,212,212) 13%, rgb(86,186,239) 57%);
+background-image: -webkit-linear-gradient(bottom, rgb(212,212,212) 13%, rgb(86,186,239) 57%);
+background-image: -ms-linear-gradient(bottom, rgb(212,212,212) 13%, rgb(86,186,239) 57%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.13, rgb(212,212,212)),
+	color-stop(0.57, rgb(86,186,239))
+);
+
 }
    
 .button {
