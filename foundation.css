@@ -3741,7 +3741,7 @@ kbd {
     font-size: 0.875em; }
     .side-nav li a {
       display: block;
-      color: #2ba6cb; }
+      color: #000000; }
     .side-nav li.active > a:first-child {
       color: #4d4d4d;
       font-weight: bold; }
