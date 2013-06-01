@@ -5,7 +5,7 @@
       
         <h2>Welcome RN to BSN Admin</h2>
 		
-		 <img src="Symbol-of-Medicine-300x300.png" style="margin:auto; width:75;"/>
+		 <img src="Symbol-of-Medicine-300x300.png" style="margin:auto; width:50%;"/>
       
       
    <?php
