@@ -52,6 +52,6 @@
   
 ?>
 
-<div align="center"><img src="background.jpg" class="bg"></div>
+
 </body>
 </html>
