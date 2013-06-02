@@ -45,5 +45,5 @@
 <?php } ?>
    <?php
 	// this auto-magically inserts footer.html here
-	require('footer.html');
+	require('footer1.html');
 ?>
