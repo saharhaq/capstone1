@@ -16,7 +16,7 @@ if (r==true)
 }
 </script>
 
-
+<center>
   <h2>Welcome</h2>
 
   <p>RN to BSN Student Profile</p>
@@ -32,6 +32,8 @@ if (r==true)
 <th>Delete</th>
 
 </tr>
+
+</center>
 
 <?php
 	
