@@ -16,7 +16,7 @@ if (r==true)
 }
 </script>
 
-<div style="margin-left:85px;">
+<center style="margin-left:-85px;">
   <h2>Welcome</h2>
 
   <p>RN to BSN Student Profile</p>
