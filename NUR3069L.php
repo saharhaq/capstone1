@@ -26,7 +26,7 @@
  </br>
  </br>
  
- <center> <a href="1.php">back to courses</a> </center>
+ <a href="1.php" style="margin-left:350px;">back to courses</a> 
 
 <?php } ?>
    <?php
