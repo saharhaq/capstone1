@@ -14,7 +14,7 @@
  mkdir($folderpath);
  
  $path = $folderpath . '/' . basename($name);
- //echo $path . '<br>';
+ echo $path . '<br>';
 
  if (move_uploaded_file($file['tmp_name'], $path)) {
 echo 'Move succeed';
