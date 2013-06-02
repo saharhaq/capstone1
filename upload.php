@@ -44,6 +44,9 @@ mysqli_close($dbc);
 
  
 <br/>
+<br/>
+<br/>
+<br/>
 <a href="download.php">View Uploaded Files</a>
 
    <?php
