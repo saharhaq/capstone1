@@ -1,0 +1,98 @@
+ </div>
+    
+    
+    <!-- Nav Sidebar -->
+    <!-- This is source ordered to be pulled to the left on larger screens -->
+    <div class="large-3 pull-9 columns">
+        
+      <ul class="side-nav">
+        <!---<li><a href="#">Section 1</a></li>
+        <li><a href="#">Section 2</a></li>
+        <li><a href="#">Section 3</a></li>
+        <li><a href="#">Section 4</a></li>
+        <li><a href="#">Section 5</a></li>
+        <li><a href="#">Section 6</a></li>--->
+		<?php
+session_start();
+if (empty($_SESSION['ProfessorID'])) {
+	echo '<li><p>Please log in to continue</p></li>';
+	echo '<li><a href="index.html" class="button">Login here</a></li>';
+ }
+ else {
+  //echo '<li><img src="browardcollegelogo.jpg" alt="welcome"></li>';
+  
+  echo '<li><b>NUR3069L</b><a href="adminviewhours.php?TLD=NUR3069L"class="button" >viewhours</a></li>';
+  echo '<li><a href="adminviewupload.php?TLD=NUR3069L" class="button" >uploads</a><br/></li>';
+ 
+  echo '<li><b>NUR4636L</b><a href="adminviewhours.php?TLD=NUR4636L" class="button" >viewhours</a></li>'; 
+  echo '<li><a href="adminviewupload.php?TLD=NUR4636L" class="button">uploads</a><br/></li>';
+  
+  echo '<li><b>NUR4195C</b><a href="adminviewhours.php?TLD=NUR4195C" class="button" >viewhours</a></li>'; 
+  echo '<li><a href="adminviewupload.php?TLD=NUR4195C" class="button" >uploads</a><br/></li>';
+ 
+  echo '<li><b>NUR4945L</b><a href="adminviewhours.php?TLD=NUR4945L" class="button" >viewhours</a></li>'; 
+  echo '<li><a href="adminviewupload.php?TLD=NUR4945L" class="button" >uploads</a></li>';
+  
+  
+ /* echo '<li><a href="logout.php">LOGOUT</a></li>';
+  echo '<li><a href="changepassword.php">Change password</a></li>';
+  
+ 
+  echo '<li><img src="browardcollegelogo.jpg" alt="welcome"></li>';
+  echo '<li><a href="createadmin.php">Create Admin</a></li>';
+  echo '<li><a href="createstudents.php">Create Students</a></li>';
+  echo '<li><a href="Changestudentpassword.php">Change Student Password</a></li>';
+  //echo '<a href="NUR4945L.php">NUR4945L<a/><br />';
+ 
+ */
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+?>
+      </ul>
+      
+     
+        
+    </div>
+    
+  </div>
+    
+  
+  <!-- Footer -->
+  
+ <!---- <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p>&copy; Copyright no one at all. Go to town.</p>
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+            <li><a href="#">Section 1</a></li>
+            <li><a href="#">Section 2</a></li>
+            <li><a href="#">Section 3</a></li>
+            <li><a href="#">Section 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </footer>
+  <script>
+  document.write('<script src=js/vendor/' +
+  ('__proto__' in {} ? 'zepto' : 'jquery') +
+  '.js><\/script>')
+  </script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>--->
+</body>
+</html>
