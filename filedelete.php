@@ -35,7 +35,7 @@ $sql = "DELETE FROM `upload` WHERE `id` = '$id'";
  
 $result = mysqli_query($dbc, $sql)
 or die ("Could not submit data:".mysqli_error($dbc));
-echo "<center> Delete successful </center>";
+echo "Delete successful";
  
 mysqli_close($dbc);
 ?>
