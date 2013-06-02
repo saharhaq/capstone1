@@ -22,8 +22,7 @@ if (r==true)
   <p>RN to BSN Student Profile</p>
   <br />
 
-<br>
-<br>
+
 <br>RIGHT-CLICK TO DOWNLOAD FILE<br>
 </br>
 </br>
