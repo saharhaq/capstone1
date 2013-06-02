@@ -17,7 +17,7 @@ if (r==true)
 }
 </script>
 
-<body>
+<center>
   <h2>Welcome</h2>
 
   <p>RN to BSN Student Profile</p>
@@ -33,6 +33,8 @@ if (r==true)
 <th>Delete</th>
 
 </tr>
+
+</center>
 
 <?php
 	
@@ -63,9 +65,6 @@ if (r==true)
 	mysqli_close($dbc);
 	 
 ?>
-
-
- <a href="logout.php">LOGOUT</a>
 
 </table>
 
