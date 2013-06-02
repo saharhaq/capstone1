@@ -18,6 +18,13 @@
  $_SESSION['classcode']= 'NUR3069L';
  
  ?>
+ </br>
+ </br>
+ </br>
+ </br>
+ </br>
+ </br>
+ </br>
  
  <center> <a href="1.php">back to courses</a> </center>
 
