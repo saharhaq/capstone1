@@ -3968,6 +3968,7 @@ table {
       text-align: left; }
   table tr th,
   table tr td {
+  background-color:#55b9ef;
     padding: 0.5625em 0.625em;
     font-size: 0.875em;
     color: #222222; }
