@@ -42,16 +42,6 @@ mysqli_close($dbc);
 <a href="download.php">Click here to return</a>
 
 
- <a href="logout.php">LOGOUT</a>
-
-
-
-
-
-
-<div align="center"><img src="background.jpg" class="bg"></div>  
-
-
    <?php
 	// this auto-magically inserts footer.html here
 	require('footer1.html');
