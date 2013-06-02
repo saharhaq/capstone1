@@ -55,7 +55,7 @@ session_start();
   echo '<a href="NUR4945L.php">NUR4945L<a/><br />';
   echo '<a href="logout.php">LOGOUT</a>';
   echo '<a href="changepassword.php">Change password</a>';
- 
+ <img src="Symbol-of-Medicine-300x300.png" style="margin:auto; width:65%;"/>
  }
 ?>
 
