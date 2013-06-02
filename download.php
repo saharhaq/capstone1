@@ -16,7 +16,7 @@ if (r==true)
 }
 </script>
 
-<div style="margin-left:80px;">
+<div style="margin-left:85px;">
   <h2>Welcome</h2>
 
   <p>RN to BSN Student Profile</p>
@@ -26,7 +26,7 @@ if (r==true)
 <br>
 <br>RIGHT-CLICK TO DOWNLOAD FILE<br>
  <form id="form1" action="download.php" method="post">
-<table align="center">
+<table>
 <tr>
 <th>Download</th>
 <th>Delete</th>
