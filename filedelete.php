@@ -39,6 +39,11 @@ echo "Delete successful";
  
 mysqli_close($dbc);
 ?>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <a href="download.php">Click here to return</a>
 
 
