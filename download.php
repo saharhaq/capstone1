@@ -70,7 +70,7 @@ if (r==true)
 
 </form>
 
-</div>
+</center>
 
    <?php
 	// this auto-magically inserts footer.html here
