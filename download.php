@@ -16,7 +16,7 @@ if (r==true)
 }
 </script>
 
-<center>
+<div style="margin-left:80px;">
   <h2>Welcome</h2>
 
   <p>RN to BSN Student Profile</p>
@@ -33,7 +33,6 @@ if (r==true)
 
 </tr>
 
-</center>
 
 <?php
 	
@@ -66,11 +65,12 @@ if (r==true)
 ?>
 
 
- <a href="logout.php">LOGOUT</a>
 
 </table>
 
 </form>
+
+</div>
 
    <?php
 	// this auto-magically inserts footer.html here
