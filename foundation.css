@@ -3951,7 +3951,7 @@ kbd {
 
 /* Tables */
 table {
-  background: white;
+  background: #55b9ef;
   margin-bottom: 1.25em;
   border: solid 1px #dddddd; }
   table thead,
