@@ -1,3 +1,11 @@
+
+
+<?php
+	// this auto-magically inserts header.html here
+	require('header1.html');  
+?>
+
+
 <?php
 session_start();
 	
@@ -29,4 +37,10 @@ $sql = "INSERT INTO `Hours` (id,`StudentID`, `Hours`, `Activity`, `Description`,
 		
 	
 	mysqli_close($dbc);
+?>
+
+<?php } ?>
+   <?php
+	// this auto-magically inserts footer.html here
+	require('footer1.html');
 ?>
