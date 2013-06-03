@@ -33,10 +33,7 @@ $sql = "INSERT INTO `Hours` (id,`StudentID`, `Hours`, `Activity`, `Description`,
 		or die("Could not submit data: " . mysqli_error($dbc));
 
 		<br/> echo "<br/>Thank you for your submission<br/>";
-		<br>
-		<br>
-		<br>
-		<br>
+		
 		
 	
 		
