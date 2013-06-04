@@ -52,12 +52,13 @@ session_start();
  }
  else {
   echo '<img src="browardcollegelogo.jpg" alt="welcome"><br /><br /><br />';
-  echo '<a href="NUR3069L.php">NUR3069L</a><br />';
-  echo '<a href="NUR4636L.php">NUR4636L<a/><br />';
-  echo '<a href="NUR4195C.php">NUR4195C<a/><br />';
-  echo '<a href="NUR4945L.php">NUR4945L<a/><br />';
-  echo '<a href="logout.php">LOGOUT</a>';
-  echo '<a href="changepassword.php">Change password</a>';
+  
+  echo '<br/><a href="NUR3069L.php">NUR3069L</a><br />';
+  echo '<br/><a href="NUR4636L.php">NUR4636L<a/><br />';
+  echo '<br/><a href="NUR4195C.php">NUR4195C<a/><br />';
+  echo '<br/><a href="NUR4945L.php">NUR4945L<a/><br />';
+  echo '<br/><a href="logout.php">LOGOUT</a>';
+  echo '<br/><a href="changepassword.php">Change password</a>';
  
  }
 ?>
