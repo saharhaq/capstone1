@@ -18,8 +18,9 @@ if (r==true)
 }
 </script>
 
-<center>
+
 <body>
+<center style="margin-left:-250px;">
   <h2>Welcome</h2>
 
   <p>RN to BSN Student Profile</p>
