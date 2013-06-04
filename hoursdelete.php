@@ -18,10 +18,12 @@ if (r==true)
 }
 </script>
 
+<center>
 <body>
   <h2>Welcome</h2>
 
   <p>RN to BSN Student Profile</p>
+<center/>  
   <br />
 
 <br>
@@ -40,16 +42,11 @@ $sql = "DELETE FROM `Hours` WHERE `id` = '$id'";
  
 $result = mysqli_query($dbc, $sql)
 or die ("Could not submit data:".mysqli_error($dbc));
-echo "<br/><center> Delete successful </center><br/>";
+echo "<br/> Delete successful <br/>";
  
 mysqli_close($dbc);
 ?>
-<a href="viewhours.php">Click here to return</a>
 
- 
-
-
- 
  
 
 
