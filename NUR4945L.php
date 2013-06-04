@@ -46,9 +46,11 @@
 
  <a href="1.php">back to courses</a>
  <a href="logout.php">LOGOUT</a>
+<?php } ?>
 
- 
- 
+
+
+
    <?php
 	// this auto-magically inserts footer.html here
 	require('footer1.html');
