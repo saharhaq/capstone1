@@ -47,7 +47,7 @@
 <br>
 <br>
 <br>
-
+<?php } ?>
  
    <?php
 	// this auto-magically inserts footer.html here
