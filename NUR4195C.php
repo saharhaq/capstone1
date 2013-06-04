@@ -27,13 +27,13 @@
  
  ?>
  
- <a href="download.php">Download</a>
+ <!--<a href="download.php">Download</a>
  
  <a href="upload.html">Upload</a>
 
  <a href="enterdata.php">Enter Hours</a>
  
- <a href="viewhours.php">View Hours</a>
+ <a href="viewhours.php">View Hours</a>-->
  
  
 
