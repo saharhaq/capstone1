@@ -58,7 +58,7 @@ session_start();
 		or die("Could not fetch data: " . mysqli_error($dbc));
 		
 	$row = mysqli_fetch_assoc($result);
-	echo '<tr><th colspan="4" align="left">';
+	echo '<tr><th colspan="5" align="left">';
 	echo 'Total Approved hours:'.$row['Hours'];
 	echo'</th></tr>';
 
@@ -68,7 +68,7 @@ session_start();
 		or die("Could not fetch data: " . mysqli_error($dbc));
 		
 	$row = mysqli_fetch_assoc($result);
-	echo '<tr><th colspan="4" align="left">';
+	echo '<tr><th colspan="5" align="left">';
 	echo 'Total Pending hours:'.$row['Hours'];
 	echo'</th></tr>';
 
