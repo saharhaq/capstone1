@@ -32,7 +32,7 @@ session_start();
     or die('Error connecting to MySQL server.');
 
 	
-	$sql = " SELECT id, Hours,Activity,Description,Approval FROM Hours where StudentID='".$_SESSION['employee_id']."'";
+	$sql = " SELECT id, Hours,Activity,Description,Approval FROM Hours where StudentID='".$_SESSION['employee_id']."' and `Class code`='".$_SESSION['classcode']."'";
 	
 
 	
