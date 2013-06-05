@@ -1,12 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Online Seminar</title>
-</head>
-<body>
-  <h2>Online Seminar</h2>
+
+<?php
+	// this auto-magically inserts header.html here
+	require('header1.html');  
+?>
+
+
+
+
+ 
 
 <?php
   $user_name = $_POST['username'];
@@ -31,5 +32,7 @@
     
 ?>
 
-</body>
-</html>
+   <?php
+	// this auto-magically inserts footer.html here
+	require('footer1.html');
+?>
