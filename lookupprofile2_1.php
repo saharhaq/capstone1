@@ -27,13 +27,13 @@
   
  echo '</br>';
  echo '</br>';
-  echo '</br>';
-   echo '</br>';
-    echo '</br>';
-	 echo '</br>';
-	  echo '</br>';
-	   echo '</br>';
-	   v
+ echo '</br>';
+ echo '</br>';
+ echo '</br>';
+ echo '</br>';
+ echo '</br>';
+ echo '</br>';
+	   
   echo 'Your Profile has been updated succesfully.<br />';
  
     
