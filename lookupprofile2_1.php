@@ -6,9 +6,6 @@
 
 
 
-
- 
-
 <?php
   $user_name = $_POST['username'];
   $pass_word = $_POST['password'];
@@ -32,6 +29,8 @@
     
 ?>
 
+
+<?php } ?>
    <?php
 	// this auto-magically inserts footer.html here
 	require('footer1.html');
