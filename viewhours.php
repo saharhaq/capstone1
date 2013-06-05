@@ -52,7 +52,7 @@ session_start();
 	}
 	
 
-	$sql = " SELECT SUM(Hours) AS Hours FROM Hours where StudentID='".$_SESSION['employee_id']."' AND Approval='Approved'";
+	$sql = " SELECT SUM(Hours) AS Hours FROM Hours where StudentID='".$_SESSION['employee_id']."' AND Approval='Approved' and `Class code`='".$_SESSION['classcode']."'";
 
 	$result = mysqli_query($dbc, $sql)
 		or die("Could not fetch data: " . mysqli_error($dbc));
@@ -62,7 +62,7 @@ session_start();
 	echo 'Total Approved hours:'.$row['Hours'];
 	echo'</th></tr>';
 
-	$sql = " SELECT SUM(Hours) AS Hours FROM Hours where StudentID='".$_SESSION['employee_id']."' AND Approval='Pending'";
+	$sql = " SELECT SUM(Hours) AS Hours FROM Hours where StudentID='".$_SESSION['employee_id']."' AND Approval='Pending' and `Class code`='".$_SESSION['classcode']."'";
 
 	$result = mysqli_query($dbc, $sql)
 		or die("Could not fetch data: " . mysqli_error($dbc));
