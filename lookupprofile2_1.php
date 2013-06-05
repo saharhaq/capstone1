@@ -23,7 +23,15 @@
   mysqli_close($dbc);
   //$first_name = $row['first_name'];
   //$last_name = $row['last_name'];
-
+  
+  
+</br>
+ </br>
+ </br>
+ </br>
+ </br>
+ </br>
+ </br>
   echo 'Your Profile has been updated succesfully.<br />';
  
     
