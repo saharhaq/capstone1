@@ -25,13 +25,10 @@
   //$last_name = $row['last_name'];
   
   
-</br>
- </br>
- </br>
- </br>
- </br>
- </br>
- </br>
+ echo '</br>';
+ echo '</br>';
+  echo '</br>';
+   echo '</br>';
   echo 'Your Profile has been updated succesfully.<br />';
  
     
