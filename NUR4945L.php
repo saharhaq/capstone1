@@ -44,6 +44,12 @@
 
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
  <!--<a href="1.php">back to courses</a>
  <a href="logout.php">LOGOUT</a>-->
