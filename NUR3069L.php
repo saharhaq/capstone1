@@ -24,7 +24,7 @@
  </br>
  </br>
 
-  '<img src="log.png" style="margin:auto; width:65%;"/>';
+  <img src="log.png" style="margin:auto; width:65%;"/>
  
 
 
