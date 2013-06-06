@@ -43,6 +43,7 @@
 <br>
 <br>
 <br>
+<img src="log.png" style="margin:auto; width:75%;"/>
 
  <!--<a href="1.php">back to courses</a>
  <a href="logout.php">LOGOUT</a>-->

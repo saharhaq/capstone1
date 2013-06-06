@@ -33,6 +33,8 @@
  </br>
  </br>
  
+ <img src="log.png" style="margin:auto; width:75%;"/>
+ 
  <!--<a href="download.php">Download</a>
  
  <a href="upload.html">Upload</a>

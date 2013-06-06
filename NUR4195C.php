@@ -47,6 +47,7 @@
 <br>
 <br>
 <br>
+<img src="log.png" style="margin:auto; width:75%;"/>
 <?php } ?>
  
    <?php
