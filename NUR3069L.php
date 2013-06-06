@@ -23,10 +23,9 @@
  </br>
  </br>
  </br>
- </br>
- </br>
+
  
- <div align="center"><img src="log.png" class="bg"></div> 
+<center><img src="log.png" class="bg"></center>
  
 
 
