@@ -25,7 +25,9 @@
  </br>
     <!--<div align="center"><img src="log.png" style="margin:auto; width:65%;"/></div>-->
 
-   <div align="center"><img src="log.png" class="bg"></div>
+
+	<img src="log.png" style="margin:auto; width:65%;"/>';
+ 
 
 </center> 
  
