@@ -23,7 +23,10 @@
  </br>
  </br>
  </br>
-  <div align="center"><img src="log.png" style="margin:auto; width:65%;"/>
+  <div align="center"><img src="log.png" style="margin:auto; width:65%;"/></div>
+
+   <!--<div align="center"><img src="Broward_Seal.png" class="bg"></div>-->
+
 </center> 
  
 
