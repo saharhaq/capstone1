@@ -24,9 +24,9 @@
  </br>
  </br>
 
+  echo '<img src="log.png" style="margin:auto; width:65%;"/>';
  
-<center><img src="log.png" class="bg"></center>
- 
+
 
 
 <?php } ?>
