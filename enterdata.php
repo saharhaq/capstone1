@@ -23,8 +23,8 @@
  <label for="WorkDescription">Description</label>
  
  <br>
-<textarea name="description"rows="4" cols="50">
-1500 Character limit
+<textarea name="description"rows="4" cols="50" maxlength="500">
+500 Character limit
 
 </textarea>
  </p>
