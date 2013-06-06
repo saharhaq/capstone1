@@ -23,7 +23,8 @@
  </br>
  </br>
  </br>
-</br><img src="log.png" style="margin:auto; width:65%;"/>
+  <div align="center"><img src="log.png" style="margin:auto; width:65%;"/>
+</center> 
  
 
 
