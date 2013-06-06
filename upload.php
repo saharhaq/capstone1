@@ -31,7 +31,13 @@ echo '<br/>';
 $sql = "INSERT INTO upload (id,studentid,path,`Class code`) VALUES ('".uniqid('',true)."','".$_SESSION['employee_id']."','" . mysql_real_escape_string($path) . "','".$_SESSION['classcode']."')";
 $result = mysqli_query($dbc, $sql)
 		or die("Could not submit data: " . mysqli_error($dbc));
-		echo '<br/>Thank you for your submission on ' . date("m-d-y h:i:s");
+			date_default_timezone_set('America/New_York');
+		echo '<br/>Thank you for your submission on ' . date("m-d-y h:i A");
+		
+		
+		
+	
+		
 } 
 else {
 echo 'Move failed. Try again';
