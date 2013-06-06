@@ -26,6 +26,8 @@
  </br>
  </br>
  
+ <div align="center"><img src="log.png" class="bg"></div> 
+ 
 
 
 <?php } ?>
