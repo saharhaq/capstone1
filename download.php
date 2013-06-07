@@ -33,7 +33,7 @@ if (r==true)
 <tr>
 <th>Download</th>
 <th>Delete</th>
-
+<th>Time submission</th>
 </tr>
 
 
@@ -59,6 +59,7 @@ if (r==true)
 			echo "<td><a href=\"", $row['path'], "\">",$filepath[count($filepath)-1],"</a> </td>\n";
 			echo ' <td><a href="filedelete.php?id='.$row['id'].'"onclick="return myFunction();"><img width="25" height="25" alt="" src="trash.png"></a></td>';
 		    echo '<td>'.$row['Time_submission'].'</td>';
+			echo '<td>'.var_dump($row).'</td>';
 		echo "</tr>\n";
 	}
 	
