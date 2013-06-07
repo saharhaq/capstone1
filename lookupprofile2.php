@@ -7,26 +7,7 @@
   <title>Create profile</title>
 </head>
 <body>
- 
-  
-  
-  
-   <link rel="stylesheet" href="normalize.css">
-
-  <link rel="stylesheet" type="text/css" href="new.css">
-  <script src="custom.modernizr.js">
-  </script>
-  
-  
- 
-      <h1><img src="BrowardCollegeLogo.png" /></h1>
-  
-  
-  
-  
-  
-  
-  
+  <h2>Profile</h2>
 
 <?php
   $StudentID = $_POST['employeecode'];
@@ -61,12 +42,7 @@
   echo '<label for="password">Password : </label>';
   echo '<input type="password" name="password" /><br />';
   echo '<input type="hidden" name="empc" value='. $StudentID .'> <br />';
- //echo '<input type="submit" value="Login" name="submit" />'//
-  
-  
-  echo '<a href="1.php">Login here</a>';
-  
-  
+  echo '<input type="submit" value="Login" name="submit" />';
   echo '</form>';
   
   }
@@ -76,8 +52,6 @@
   
 ?>
 
-<!--<p><a href="index.html">Back to login page</a><br /><p>-->
-
-
+<div align="center"><img src="background.jpg" class="bg"></div>
 </body>
 </html>
