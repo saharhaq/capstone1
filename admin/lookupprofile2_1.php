@@ -32,5 +32,7 @@
     
 ?>
 
+ <p> Login here <a href="lookupprofile.html">Here</a><br /><p>
+
 </body>
 </html>

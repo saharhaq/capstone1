@@ -52,8 +52,6 @@
   
 ?>
 
- <p> login <a href="lookupprofile.html">Here</a><br /><p>
-
 
 </body>
 </html>
