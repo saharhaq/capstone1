@@ -71,7 +71,7 @@
   
 ?>
 
-<p>Back to login page<a href="index.html">Here</a><br /><p>
+<p><a href="index.html">Back to login page</a><br /><p>
 
 
 </body>
