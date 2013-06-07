@@ -8,7 +8,7 @@
   
  </br> 
   
-  <h3>NUR3069L</h3>
+  <center style="margin-left:-250px;"><h3>NUR3069L</h3></center>
  
  <?php
  session_start();
