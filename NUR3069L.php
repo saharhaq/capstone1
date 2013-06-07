@@ -5,6 +5,9 @@
 ?>
 
   <h2>Welcome RN to BSN Students</h2>
+  
+  
+  <h3>NUR3069L</h2>
  
  <?php
  session_start();
