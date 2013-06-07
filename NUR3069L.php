@@ -8,7 +8,7 @@
   
  </br> 
   
-  <center><h3>NUR3069L</h2></center>
+  <h3>NUR3069L</h3>
  
  <?php
  session_start();
