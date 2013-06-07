@@ -45,6 +45,11 @@ echo "Delete successful";
  
 mysqli_close($dbc);
 ?>
+
+<br>
+<br>
+<br>
+<br>
 <a href="viewhours.php">Click here to return</a>
 
  
