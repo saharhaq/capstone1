@@ -26,7 +26,7 @@
 
  
 
-<div align="center"><img src="background.jpg" class="bg"></div>  
+ 
 
 <?php
 	// this auto-magically inserts footer.html here
