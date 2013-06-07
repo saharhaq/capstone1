@@ -9,6 +9,8 @@
 
 
   <h2>Welcome RN to BSN Students</h2>
+  
+   <center style="margin-left:-250px;"><h3>NUR4636L</h3></center>
  
  <?php
  session_start();
