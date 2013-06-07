@@ -41,13 +41,13 @@ $sql = "DELETE FROM `Hours` WHERE `id` = '$id'";
  
 $result = mysqli_query($dbc, $sql)
 or die ("Could not submit data:".mysqli_error($dbc));
-<center> Delete successful </center>
+echo "<br/><center> Delete successful </center><br/>";
  
 mysqli_close($dbc);
 ?>
 <a href="viewhours.php">Click here to return</a>
 
-
+ 
 
 <?php
 	// this auto-magically inserts footer.html here
