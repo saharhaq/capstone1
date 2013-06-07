@@ -8,6 +8,25 @@
 </head>
 <body>
   <h2>Profile</h2>
+  
+  
+  
+   <link rel="stylesheet" href="normalize.css">
+
+  <link rel="stylesheet" type="text/css" href="new.css">
+  <script src="custom.modernizr.js">
+  </script>
+  
+  
+ 
+      <h1><img src="BrowardCollegeLogo.png" /></h1>
+  
+  
+  
+  
+  
+  
+  
 
 <?php
   $StudentID = $_POST['employeecode'];
