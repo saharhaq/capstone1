@@ -61,7 +61,12 @@
   echo '<label for="password">Password : </label>';
   echo '<input type="password" name="password" /><br />';
   echo '<input type="hidden" name="empc" value='. $StudentID .'> <br />';
-  echo '<input type="submit" value="Login" name="submit" />';
+ //echo '<input type="submit" value="Login" name="submit" />'//
+  
+  
+  echo '<a href="1.php">Login here</a>';
+  
+  
   echo '</form>';
   
   }
@@ -71,7 +76,7 @@
   
 ?>
 
-<p><a href="index.html">Back to login page</a><br /><p>
+<!--<p><a href="index.html">Back to login page</a><br /><p>-->
 
 
 </body>
