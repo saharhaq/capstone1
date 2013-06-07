@@ -7,7 +7,7 @@
   <title>Create profile</title>
 </head>
 <body>
-  <h2>Profile</h2>
+ 
   
   
   
@@ -70,6 +70,8 @@
   }
   
 ?>
+
+<p>Back to login page<a href="index.html">Here</a><br /><p>
 
 
 </body>
