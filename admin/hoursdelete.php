@@ -41,7 +41,7 @@ $sql = "DELETE FROM `Hours` WHERE `id` = '$id'";
  
 $result = mysqli_query($dbc, $sql)
 or die ("Could not submit data:".mysqli_error($dbc));
-echo "<br/><center> Delete successful </center><br/>";
+echo "Delete successful";
  
 mysqli_close($dbc);
 ?>
