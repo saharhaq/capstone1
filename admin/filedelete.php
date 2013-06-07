@@ -49,7 +49,10 @@ mysqli_close($dbc);
 <a href="download.php">Click here to return</a>
 
 
+
+
 <?php
-	// this auto-magically inserts header.html here
-	require('header.html');  
+	// this auto-magically inserts footer.html here
+	require('footer.html');
 ?>
+
