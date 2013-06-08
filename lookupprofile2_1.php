@@ -17,7 +17,7 @@
   
     echo '<br /><br /><a href="index.html">Login here</a>';
   
-    or die('Username already taken');
+     die('Username already taken');
 	}
   //$row = mysqli_fetch_array($result);
   mysqli_close($dbc);
