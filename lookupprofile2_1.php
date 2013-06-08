@@ -12,14 +12,19 @@
   $query = "update Students set password = '$pass_word', username='$user_name' where StudentID='$the_code'";
     
     
-  $result = mysqli_query($dbc, $query)
+  $result = mysqli_query($dbc, $query);
+  if(!$result){ 
+  
+    echo '<br /><br /><a href="index.html">Login here</a>';
+  
     or die('Username already taken');
+	}
   //$row = mysqli_fetch_array($result);
   mysqli_close($dbc);
   //$first_name = $row['first_name'];
   //$last_name = $row['last_name'];
   
-   echo '<br /><br /><a href="index.html">Login here</a>';
+ 
   
   session_start();
 	$_SESSION['employee_id']= $the_code;
