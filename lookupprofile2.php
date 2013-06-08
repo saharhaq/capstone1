@@ -67,7 +67,7 @@
   
 
   
- echo '<br /><a href="index.html">Login here</a>';
+ echo '<br /><br /><a href="index.html">Login here</a>';
   
   
   
