@@ -123,7 +123,7 @@ die("click link to login");
 			if($key == "Approval")
 			{
 				echo '<td>';
-				echo '<select name="'.$row['id'].'"> 
+				echo '<select style="width:100%;" name="'.$row['id'].'"> 
 					<option  value="Pending">Pending</option>
 					<option value = "Approved">Approved</option>
 					<option value = "Disapproved" >Disapproved</option>
