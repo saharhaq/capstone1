@@ -15,7 +15,7 @@
   $result = mysqli_query($dbc, $query);
   if(!$result){ 
   
-    echo '<br /><br /><a href="index.html">Login here</a>';
+    echo '<br /><br /><a href="index.html">Login here</a><br/>';
   
      die('Username already taken');
 	}
