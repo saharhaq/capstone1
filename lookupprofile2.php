@@ -65,8 +65,6 @@
   else{
   echo'password already set';
   
-</br>
- </br>
 
   
  echo '<a href="index.html">Login here</a>';
