@@ -13,7 +13,7 @@
     
     
   $result = mysqli_query($dbc, $query)
-    or die('Error querying database.');
+    or die('Username already taken');
   //$row = mysqli_fetch_array($result);
   mysqli_close($dbc);
   //$first_name = $row['first_name'];
