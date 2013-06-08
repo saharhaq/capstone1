@@ -38,6 +38,25 @@
     or die('Error querying database.');
   $row = mysqli_fetch_array($result);
   mysqli_close($dbc);
+  if ( is_null($row))
+  {  
+  
+    echo 'ID not found';
+	
+	
+ echo '<br /><br /><a href="index.html">Login here</a>';
+	
+	
+	
+
+  
+  
+  }
+  else{
+  
+  
+  
+  
   $first_name = $row['first_name'];
   $last_name = $row['last_name'];
   $password = $row['password'];
@@ -73,7 +92,7 @@
   
   
   
-  }
+ } }
   
 ?>
 
