@@ -29,18 +29,14 @@ $sql = "INSERT INTO `Students` (StudentID,`first_name`, `last_name`, courseRefer
 	"'" . $courseReference . "' " .
 	");";
 	
-	$result = mysqli_query($dbc, $sql)
-		or die("Could not submit data: " . mysqli_error($dbc));
-
-		echo "<br/>Thank you for your submission<br/>";
+	$result = mysqli_query($dbc, $sql);
+		if (!$result) echo "Could not submit data: " . mysqli_error($dbc);
+		else echo "<br/>Thank you for your submission<br/>";
 	
 		
 	
 	mysqli_close($dbc);
 ?>
-
-
-
 
  
 
