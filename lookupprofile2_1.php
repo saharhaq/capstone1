@@ -1,9 +1,4 @@
 
-<?php
-	// this auto-magically inserts header.html here
-	require('header1.html');  
-?>
-
 
 
 <?php
@@ -24,24 +19,8 @@
   //$first_name = $row['first_name'];
   //$last_name = $row['last_name'];
   
-  
- echo '</br>';
- echo '</br>';
- echo '</br>';
- echo '</br>';
- echo '</br>';
- echo '</br>';
- echo '</br>';
- echo '</br>';
-	   
-  echo 'Your Profile has been updated succesfully.<br />';
- 
+
+ header('Location: 1.php');
     
 ?>
 
-
-
-   <?php
-	// this auto-magically inserts footer.html here
-	require('footer1.html');
-?>
