@@ -32,7 +32,7 @@ if (r==true)
 <?php
 if(!isset($_SESSION['ProfessorID']))
 {
-echo "<a href='index.html'>Login</a>"; 
+echo '<a href="index.html" style="font-size:18pt;">Login</a>'; 
 die("");
 }
 ?>
