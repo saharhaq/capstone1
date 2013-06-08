@@ -19,7 +19,7 @@
   //$first_name = $row['first_name'];
   //$last_name = $row['last_name'];
   
-  
+   echo '<br /><br /><a href="index.html">Login here</a>';
   
   session_start();
 	$_SESSION['employee_id']= $the_code;
