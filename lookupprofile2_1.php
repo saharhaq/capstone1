@@ -19,6 +19,10 @@
   //$first_name = $row['first_name'];
   //$last_name = $row['last_name'];
   
+  
+  
+  session_start();
+	$_SESSION['employee_id']= $the_code;
 
  header('Location: 1.php');
     
