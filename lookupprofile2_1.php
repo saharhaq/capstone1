@@ -14,8 +14,11 @@
     
   $result = mysqli_query($dbc, $query);
   if(!$result){ 
-  
-    echo '<br /><br /><a href="index.html">Login here</a><br/>';
+  echo '<link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="foundation.css">
+  <link rel="stylesheet" type="text/css" href="new.css">
+  <script src="custom.modernizr.js"></script>';
+  echo '<br /><br /><a href="index.html">Login here</a><br/>';
   
      die('Username already taken');
 	}
