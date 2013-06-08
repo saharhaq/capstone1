@@ -18,9 +18,9 @@
   <link rel="stylesheet" href="foundation.css">
   <link rel="stylesheet" type="text/css" href="new.css">
   <script src="custom.modernizr.js"></script>';
-  echo '<br /><br /><a href="index.html">Login here</a><br/><br/><br/>';
+ echo '  <center> <br /><br /><a href="index.html">Login here</a><br/><br/><br/>';
   
-     die('Username already taken');
+     die('Username already taken  </center>');
 	}
   //$row = mysqli_fetch_array($result);
   mysqli_close($dbc);
