@@ -33,7 +33,7 @@ if (r==true)
 if(!isset($_SESSION['ProfessorID']))
 {
 echo "<a href='index.html'>Login</a>"; 
-//die("click link to login");
+die("");
 }
 ?>
 <h1>View <?php echo $_GET['TLD']; ?> Hours</h1>
