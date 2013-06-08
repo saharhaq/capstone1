@@ -48,10 +48,19 @@
   }
   else{
   echo'password already set';
+  
+  
+  
+  echo '<a href="index.html">Login here</a>';
+  
+  
+  
+  
+  
   }
   
 ?>
 
-<div align="center"><img src="background.jpg" class="bg"></div>
+
 </body>
 </html>
