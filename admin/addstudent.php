@@ -1,4 +1,14 @@
 <?php
+	// this auto-magically inserts header.html here
+	require('header.html');  
+?>
+
+
+
+
+
+
+<?php
 session_start();
 	
 	// connect to the database
@@ -27,4 +37,14 @@ $sql = "INSERT INTO `Students` (StudentID,`first_name`, `last_name`, courseRefer
 		
 	
 	mysqli_close($dbc);
+?>
+
+
+
+
+ 
+
+<?php
+	// this auto-magically inserts footer.html here
+	require('footer.html');
 ?>
