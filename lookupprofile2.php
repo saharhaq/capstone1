@@ -11,7 +11,7 @@
   
   
    <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="foundation.css">
+ 
   <link rel="stylesheet" type="text/css" href="new.css">
   <script src="custom.modernizr.js"></script>
   
@@ -65,7 +65,8 @@
   else{
   echo'password already set';
   
-  
+   <br /> 
+    <br />
   
  echo '<a href="index.html">Login here</a>';
   
