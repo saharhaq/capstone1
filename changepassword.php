@@ -43,7 +43,7 @@ if (empty($_SESSION['employee_id'])) {
   echo 'Your student ID is : ' .$_SESSION['employee_id'] . '<br />';
   echo '<br />';
   echo '<br />';
-  echo '<p> create username and password</p>';
+  echo '<p> Create username and password</p>';
   echo '<form method="post" action="lookupprofile2_1.php">';
   echo '<label for="username">Username : </label>';
   echo '<input type="text" name="username" /><br />';
