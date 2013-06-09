@@ -1,3 +1,15 @@
+
+
+<?php
+	// this auto-magically inserts header.html here
+	require('header.html');  
+?>
+
+
+
+
+
+
 <?php
 session_start();
 	
@@ -29,3 +41,11 @@ $sql = "INSERT INTO `Admin` (ProfessorID,`Firstname`, `Lastname`) VALUES (" .
 	
 	mysqli_close($dbc);
 ?>
+
+
+
+<?php
+	// this auto-magically inserts footer.html here
+	require('footer.html');
+?>
+
