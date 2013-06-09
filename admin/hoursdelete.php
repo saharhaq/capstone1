@@ -50,7 +50,7 @@ mysqli_close($dbc);
 <br>
 <br>
 <br>
-<a href="viewhours.php">Click here to return</a>
+<a href="adminviewhours.php">Click here to return</a>
 
  
 
