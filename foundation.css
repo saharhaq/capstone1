@@ -74,7 +74,7 @@ img {
 
 textarea {
   height: auto;
-  min-height: 50px; }
+  min-height: 100px; }
 
 select {
   width: 10%; }
@@ -1714,7 +1714,7 @@ textarea {
   margin: 0 0 1em 0;
   padding: 0.5em;
   height: 2.3125em;
-  width: 25%;
+  /*width: 25%;*/
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
