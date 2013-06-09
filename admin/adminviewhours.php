@@ -130,9 +130,9 @@ die("");
 				else if($value == "Disapproved") $selectDisapproved = "selected";
 				echo '<td>';
 				echo '<select style="width:100%;" name="'.$row['id'].'"> 
-					<option  value="Pending" $selectPending>Pending</option>
-					<option value = "Approved" $selectApproved>Approved</option>
-					<option value = "Disapproved" $selectDisapproved>Disapproved</option>
+					<option  value="Pending" '.$selectPending.'>Pending</option>
+					<option value = "Approved" '.$selectApproved.'>Approved</option>
+					<option value = "Disapproved" '.$selectDisapproved.'>Disapproved</option>
 				</select>';
 				echo '</td>';
 			}
