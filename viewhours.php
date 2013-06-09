@@ -24,6 +24,7 @@ if (r==true)
 <th>Description</th>
 <th>Approval</th>
 <th>Delete</th>
+<th>Time Submission</th>
 </tr>
 
 <?php
@@ -32,7 +33,7 @@ session_start();
     or die('Error connecting to MySQL server.');
 
 	
-	$sql = " SELECT id, Hours,Activity,Description,Approval FROM Hours where StudentID='".$_SESSION['employee_id']."' and `Class code`='".$_SESSION['classcode']."'";
+	$sql = " SELECT id, Hours,Activity,Description,Approval,Entrytime FROM Hours where StudentID='".$_SESSION['employee_id']."' and `Class code`='".$_SESSION['classcode']."'";
 	
 
 	
