@@ -38,7 +38,7 @@ if (empty($_SESSION['ProfessorID'])) {
   echo 'Your first name is : ' . $first_name . '<br />';
   echo 'Your last name is : ' . $last_name . '<br />';
   echo 'Your student ID is : ' .$_SESSION['ProfessorID'] . '<br />';
-  
+  echo '<br />';
   echo '<p> create username and password</p>';
   echo '<form method="post" action="lookupprofile2_1.php">';
   echo '<label for="username">Username : </label>';
