@@ -46,7 +46,7 @@ if (empty($_SESSION['ProfessorID'])) {
   echo '<label for="password">Password : </label>';
   echo '<input type="password" name="password" /><br />';
   echo '<input type="hidden" name="empc" value='.$_SESSION['ProfessorID'] .'> <br />';
-  echo '<input type="submit" value="Login" name="submit" />';
+  echo '<input type="submit" value="Submit" name="submit" />';
   echo '</form>';
   
   }
