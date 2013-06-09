@@ -44,7 +44,7 @@ if (r==true)
 		
 	session_start();	
 	
-	$sql = "SELECT id,path, `Time submission` FROM upload WHERE studentid = '".$_SESSION['employee_id']."';";
+	$sql = "SELECT id,path, `Time submission` FROM upload WHERE studentid = '".$_SESSION['employee_id']."' and `Class code`='". $_SESSION['classcode']."';";
 	
 	//echo $sql;
 	
