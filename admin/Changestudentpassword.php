@@ -26,7 +26,7 @@ if (empty($_SESSION['ProfessorID'])) {
   $dbc = mysqli_connect('localhost', 'root', 'Capstone', 'NursingHours')
     or die('Error connecting to MySQL server.');
 
-  echo '<p> reset student password</p>';
+  echo '<p>Reset student password</p>';
   echo '<form method="post" action="changestudentpass_2.php">';
   echo '<label for="studentID">Student ID : </label>';
   echo '<input type="text" name="studentID" /><br />';
