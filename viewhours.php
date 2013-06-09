@@ -23,8 +23,8 @@ if (r==true)
 <th>Activity</th>
 <th>Description</th>
 <th>Approval</th>
-<th>Delete</th>
 <th>Time Submission</th>
+<th>Delete</th>
 </tr>
 
 <?php
