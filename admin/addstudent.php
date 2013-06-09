@@ -19,14 +19,14 @@ session_start();
 	$StudentId= mysqli_real_escape_string($dbc, strip_tags($_POST['StudentId']));
 	$Lastname= mysqli_real_escape_string($dbc, strip_tags($_POST['Lastname']));
 	$Firstname	 = mysqli_real_escape_string($dbc, strip_tags($_POST['Firstname']));
-	$courseReference = mysqli_real_escape_string($dbc, strip_tags($_POST['courseReference']));
+	//$courseReference = mysqli_real_escape_string($dbc, strip_tags($_POST['courseReference']));
 	
 
-$sql = "INSERT INTO `Students` (StudentID,`first_name`, `last_name`, courseReference) VALUES (" .
+$sql = "INSERT INTO `Students` (StudentID,`first_name`, `last_name`) VALUES (" .
 	"'" .$StudentId. "', " .
 	"'" .$Firstname. "', " .
-	"'" .$Lastname. "', " .
-	"'" . $courseReference . "' " .
+	"'" .$Lastname. "' " .
+	//"'" . $courseReference . "' " .
 	");";
 	
 	$result = mysqli_query($dbc, $sql);

@@ -23,8 +23,8 @@
 	<label for="Lastname">Please type in new Last Name:</label>
     <input type="text" name="Lastname" /><br />
 	
-	<label for="courseReference">Please type in Student's course reference number:</label>
-    <input type="text" name="courseReference" /><br />
+	<!--<label for="courseReference">Please type in Student's course reference number:</label>
+    <input type="text" name="courseReference" /><br />-->
 	
     <input type="submit" value="Create new Student" name="submit" />
   </form>
