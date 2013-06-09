@@ -38,9 +38,9 @@ if (empty($_SESSION['employee_id'])) {
   
 
   echo 'Thank You.<br />';
-  echo 'Your first name is : ' . $first_name . '<br />';
-  echo 'Your last name is : ' . $last_name . '<br />';
-  echo 'Your student ID is : ' .$_SESSION['employee_id'] . '<br />';
+  //echo 'Your first name is : ' . $first_name . '<br />';
+  //echo 'Your last name is : ' . $last_name . '<br />';
+  //echo 'Your student ID is : ' .$_SESSION['employee_id'] . '<br />';
   echo '<br />';
   echo '<br />';
   echo '<p> Create username and password</p>';
