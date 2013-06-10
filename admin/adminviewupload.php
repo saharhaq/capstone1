@@ -22,11 +22,11 @@ if (r==true)
 		document.getElementById("myinput").type="text";
 	}
 	
-	/*function showREFinput()
+	function showREFinput()
 	{
 		document.getElementById("mylabel").innerHTML="Reference #: ";
 		document.getElementById("myinput").type="text";
-	}*/
+	}
   </script>
 
 
@@ -46,7 +46,7 @@ die("click link to login");
 		<option  value="select">Select</option>
 		<option value = "All">View All</option>
 		<option value = "ID" onclick="showSIDinput();">Student Id</option>
-		<!--<option value = "REF" onclick="showREFinput();">Reference #</option>-->
+		<option value = "REF" onclick="showREFinput();">Reference #</option>
 </select>
 
 
@@ -89,12 +89,12 @@ die("click link to login");
 	{
 		$sql = "SELECT id,path FROM upload WHERE `studentid` = '".$number."';";
 	}
-	/*else if($search == "REF")	
+	else if($search == "REF")	
 	{
 		$sql = "SELECT id,path FROM upload ".
 		" INNER JOIN Students ON upload.studentid = Students.StudentID ".
 		" WHERE Students.courseReference = '".$number."';";
-	}*/
+	}
 	
 	//echo $sql;
 	

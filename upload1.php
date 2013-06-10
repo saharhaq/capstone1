@@ -15,6 +15,28 @@
     <input type="submit">
 </form>
 
+<?php
+ session_start();
+ if (empty($_SESSION['employee_id'])) {
+	echo '<p>Please log in to continue</p>';
+	echo '<a href="index.html">Login here</a>';
+	
+ }
+ else{
+ 
+ 
+ $_SESSION['classcode']= 'NUR4636L';
+ 
+ 
+ 
+ ?>
+
+
+
+
+
+
+
  <?php
 	// this auto-magically inserts footer.html here
 	require('footer1.html');
