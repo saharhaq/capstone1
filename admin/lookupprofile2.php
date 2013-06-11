@@ -69,7 +69,7 @@
   }
   else{
   echo'password already set';
-  }
+  } }
   
 ?>
 
