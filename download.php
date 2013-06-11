@@ -19,8 +19,8 @@ if (r==true)
 <center style="margin-left:-250px;">
   <h2>Welcome</h2>
 
-  <p>RN to BSN Student </br> <?php echo  $_SESSION['classcode']; ?></p>
-  <br />
+  <p>RN to BSN Student </br></br> <?php echo  $_SESSION['classcode']; ?></p>
+ 
 
 
 <br>RIGHT-CLICK TO DOWNLOAD FILE<br>
