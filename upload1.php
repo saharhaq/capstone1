@@ -6,7 +6,10 @@
 
   <h2>Welcome</h2>
 
-  <p>Nursing Department Student Profile</p>
+    <p>RN to BSN Student </br></br> <?php echo  $_SESSION['classcode']; ?></p>
+  
+  
+  
   <br />
   
  <form action="upload.php" method="post" enctype="multipart/form-data">
