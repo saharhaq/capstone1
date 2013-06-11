@@ -3,6 +3,15 @@
 	require('header1.html');  
 ?>
 
+
+
+
+    <h2>Welcome RN to BSN Students</h2>
+  
+  
+    <h3><p> <?php echo  $_SESSION['classcode']; ?></p></h3>
+
+
 </br>
 </br>
 
@@ -20,7 +29,7 @@ if (r==true)
 <center style="margin-left:-250px;">
   <!----<h2>Welcome</h2>
 
-  <p>RN to BSN Student </br></br> <?php echo  $_SESSION['classcode']; ?></p>----->
+  <p>RN to BSN Student </br></br> </p>----->
   
   
   
