@@ -7,10 +7,10 @@
 
 
 
-  <h2>Welcome RN to BSN Students</h2>
+  <h1>Welcome RN to BSN Students</h1>
   
   
-    <h3><p> <?php echo  $_SESSION['classcode']; ?></p></h3>
+    <h2><p> <?php echo  $_SESSION['classcode']; ?></p></h2>
 
 
 
@@ -30,7 +30,7 @@ if (r==true)
 </script>
 
 <body>
-  <h2>Total hours</h2>
+  <h3>Total hours</h3>
 <table>
 <tr>
 <th>Hours</th>
