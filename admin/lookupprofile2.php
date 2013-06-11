@@ -59,7 +59,7 @@
   echo '<p> Create username and password</p>';
   echo '<form method="post" action="lookupprofile2_1.php">';
   echo '<label for="username">Username : </label>';
-  echo '<input type="text" name="username" /><br />';
+  echo '<input type="text" name="username" /><br /><br />';
   echo '<label for="password">Password : </label>';
   echo '<input type="password" name="password" /><br />';
   echo '<input type="hidden" name="empc" value='. $ProfessorID .'> <br />';
