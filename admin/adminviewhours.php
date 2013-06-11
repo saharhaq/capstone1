@@ -87,7 +87,7 @@ die("");
 	if($search == "All")	
 	{
 
-	$sql = " SELECT  id, studentid, path, Entrytime, Hours,Activity,Description,Approval FROM Hours WHERE `Class code` = '".$_GET['TLD']."';";
+	$sql = " SELECT  id, StudentID, Entrytime, Hours,Activity,Description,Approval FROM Hours WHERE `Class code` = '".$_GET['TLD']."';";
 	$sql2 = " SELECT SUM(Hours) AS Hours FROM Hours where `Class code` = '".$_GET['TLD']."' AND Approval='Approved'";
 
 
@@ -95,13 +95,13 @@ die("");
 	else if($search == "ID")	
 	{
 	
-	$sql = " SELECT id, studentid, path, Entrytime Hours,Activity,Description,Approval FROM Hours  WHERE `studentid` = '".$number."';";
+	$sql = " SELECT id, studentid, Entrytime Hours,Activity,Description,Approval FROM Hours  WHERE `studentid` = '".$number."';";
 	$sql2 = " SELECT SUM(Hours) AS Hours FROM Hours where `studentid` = '".$number."' AND Approval='Approved'";
 
 	}
 	else if($search == "REF")	
 	{
-		$sql = "SELECT  id, StudentID, path,Entrytime Hours,Activity,Description,Approval FROM Hours ".
+		$sql = "SELECT  id, StudentID, Entrytime Hours,Activity,Description,Approval FROM Hours ".
 		" INNER JOIN Students ON Hours.StudentID = Students.StudentID ".
 		" WHERE Students.courseReference = '".$number."';";
 		
