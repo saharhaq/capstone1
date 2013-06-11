@@ -19,7 +19,7 @@ if (r==true)
 <center style="margin-left:-250px;">
   <h2>Welcome</h2>
 
-  <p>RN to BSN Student Profile</p>
+  <p>RN to BSN Student Profile <?php echo  $_SESSION['classcode']; ?></p>
   <br />
 
 
@@ -69,20 +69,7 @@ if (r==true)
 ?>
 
 
-<?php
- session_start();
- if (empty($_SESSION['employee_id'])) {
-	
-	
- }
- else{
- 
- 
- $_SESSION['classcode']= '';
- 
- 
- 
- ?>
+
 
 
 
