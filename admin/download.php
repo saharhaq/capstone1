@@ -26,6 +26,9 @@ if (r==true)
 <br>
 <br>
 <br>RIGHT-CLICK TO DOWNLOAD FILE<br>
+<br/>
+<br/>
+
  <form id="form1" action="download.php" method="post">
 <table align="center">
 <tr>
@@ -70,7 +73,7 @@ if (r==true)
 
 </form>
 
-<div align="center"><img src="background.jpg" class="bg"></div>  
+ 
 
 
 <?php
