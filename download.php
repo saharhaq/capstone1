@@ -17,9 +17,24 @@ if (r==true)
 </script>
 
 <center style="margin-left:-250px;">
-  <h2>Welcome</h2>
+  <!----<h2>Welcome</h2>
 
-  <p>RN to BSN Student </br></br> <?php echo  $_SESSION['classcode']; ?></p>
+  <p>RN to BSN Student </br></br> <?php echo  $_SESSION['classcode']; ?></p>----->
+  
+  
+  
+  
+    <h2>Welcome RN to BSN Students</h2>
+  
+  
+    <h3><p> <?php echo  $_SESSION['classcode']; ?></p></h3>
+  
+  
+  
+  
+  
+  
+  
  
 
 
