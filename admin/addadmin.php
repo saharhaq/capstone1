@@ -35,7 +35,7 @@ $sql = "INSERT INTO `Admin` (ProfessorID,`Firstname`, `Lastname`) VALUES (" .
 			$result = mysqli_query($dbc, $sql)
 		or die("Could not submit data: " . mysqli_error($dbc));
 
-		echo "<br/>Thank you for your submission<br/>";
+		else echo "<br/>Thank you for your submission<br/>";
 	
 		
 	
