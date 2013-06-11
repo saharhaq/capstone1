@@ -46,7 +46,7 @@ die("click link to login");
 		<option  value="select">Select</option>
 		<option value = "All">View All</option>
 		<option value = "ID" onclick="showSIDinput();">Student Id</option>
-		<option value = "REF" onclick="showREFinput();">Reference #</option>
+		<!--<option value = "REF" onclick="showREFinput();">Reference #</option>-->
 </select>
 
 
