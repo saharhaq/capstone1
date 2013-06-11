@@ -9,7 +9,7 @@
     <h2>Welcome RN to BSN Students</h2>
   
   
-   <center><p> <?php echo  $_SESSION['classcode']; ?></p></h3></center>
+   <center style="margin-left:-250px;"><h3><p> <?php echo  $_SESSION['classcode']; ?></p></h3>
 
 
 </br>
