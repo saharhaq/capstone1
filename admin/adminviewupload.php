@@ -107,11 +107,11 @@ die("click link to login");
 	
 	while ( $row = mysqli_fetch_assoc($result) ) {
 		echo "<tr>\n";
-		
+			echo "<td>".$row['studentid']." </td>\n";
 			$filepath=explode("/",$row['path']);
 			echo "<td><a href=\"../", $row['path'], "\">",$filepath[count($filepath)-1],"</a> </td>\n";
 			echo ' <td><a href="filedelete.php?id='.$row['id'].'"onclick="return myFunction();"><img width="25" height="25" alt="" src="trash.png"/></a></td>';
-		
+			echo "<td>".$row['Time submission']." </td>\n";
 		echo "</tr>\n";
 	}
 	echo' </table>';
