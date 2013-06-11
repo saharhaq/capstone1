@@ -29,8 +29,7 @@ echo '<br/>';
 echo '<br/>';
 echo '<br/>';
 echo '<br/>';
-echo '<br/>';
-echo '<br/>';
+
 
 
  if (move_uploaded_file($file['tmp_name'], $path)) {
@@ -39,7 +38,7 @@ $sql = "INSERT INTO upload (id,studentid,path,`Class code`) VALUES ('".uniqid(''
 $result = mysqli_query($dbc, $sql)
 		or die("Could not submit data: " . mysqli_error($dbc));
 			date_default_timezone_set('America/New_York');
-		echo '<br/>Thank you for your submission on ' . date("m-d-y h:i A");
+		echo 'Thank you for your submission on ' . date("m-d-y h:i A");
 		
 		
 		
