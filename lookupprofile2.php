@@ -17,13 +17,6 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
 
 <?php
   $StudentID = $_POST['employeecode'];
