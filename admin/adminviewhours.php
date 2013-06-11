@@ -75,16 +75,19 @@ die("");
 		
 	echo'<form  method="post" action="changehours.php"> <table>
 <tr>
+<th>Student ID</th>
 <th>Hours</th>
 <th>Activity</th>
 <th>Description</th>
 <th>Status</th>
+<th>Submission time</th>
 <th>Delete</th>
+
 </tr>';
 	if($search == "All")	
 	{
 
-	$sql = " SELECT id, Hours,Activity,Description,Approval FROM Hours WHERE `Class code` = '".$_GET['TLD']."';";
+	$sql = " SELECT  id, studentid, path, Entrytime, Hours,Activity,Description,Approval FROM Hours WHERE `Class code` = '".$_GET['TLD']."';";
 	$sql2 = " SELECT SUM(Hours) AS Hours FROM Hours where `Class code` = '".$_GET['TLD']."' AND Approval='Approved'";
 
 
@@ -92,13 +95,13 @@ die("");
 	else if($search == "ID")	
 	{
 	
-	$sql = " SELECT id, Hours,Activity,Description,Approval FROM Hours  WHERE `studentid` = '".$number."';";
+	$sql = " SELECT id, studentid, path, Entrytime Hours,Activity,Description,Approval FROM Hours  WHERE `studentid` = '".$number."';";
 	$sql2 = " SELECT SUM(Hours) AS Hours FROM Hours where `studentid` = '".$number."' AND Approval='Approved'";
 
 	}
 	else if($search == "REF")	
 	{
-		$sql = "SELECT id, Hours,Activity,Description,Approval FROM Hours ".
+		$sql = "SELECT  id, StudentID, path,Entrytime Hours,Activity,Description,Approval FROM Hours ".
 		" INNER JOIN Students ON Hours.StudentID = Students.StudentID ".
 		" WHERE Students.courseReference = '".$number."';";
 		
@@ -115,6 +118,8 @@ die("");
 	
 	while ( $row = mysqli_fetch_assoc($result) ) {
 		echo "<tr>\n";
+		echo "<td>".$row['StudentID']." </td>\n";
+		echo "<td>".$row['Entrytime']." </td>\n";
 		foreach($row as $key => $value) {
 			if($key != "id" && $key != "Approval")
 			{
