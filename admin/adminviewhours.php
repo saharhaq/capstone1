@@ -118,8 +118,7 @@ die("");
 	
 	while ( $row = mysqli_fetch_assoc($result) ) {
 		echo "<tr>\n";
-		echo "<td>".$row['StudentID']." </td>\n";
-		echo "<td>".$row['Entrytime']." </td>\n";
+	
 		foreach($row as $key => $value) {
 			if($key != "id" && $key != "Approval")
 			{
