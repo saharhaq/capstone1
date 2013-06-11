@@ -44,7 +44,7 @@ die("");
 <option  value="select">Select</option>
 		<option value = "All">View All</option>
 		<option value = "ID" onclick="showSIDinput();">Student Id</option>
-		<option value = "REF" onclick="showREFinput();">Reference #</option>
+		<!--<option value = "REF" onclick="showREFinput();">Reference #</option>-->
 </select>
 
 
@@ -78,7 +78,7 @@ die("");
 <th>Hours</th>
 <th>Activity</th>
 <th>Description</th>
-<th>Approval</th>
+<th>Status</th>
 <th>Delete</th>
 </tr>';
 	if($search == "All")	
@@ -149,7 +149,7 @@ die("");
 	echo 'Total Approved hours:'.$row['Hours'];
 	echo'</th></tr>';
 	echo '</table>';
-	echo '<input  type="submit" value="Change approval status" />	';
+	echo '<input  type="submit" value="Change Status" />	';
 	echo '</form>';
 	// close the database connection
 	mysqli_close($dbc);
