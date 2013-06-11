@@ -34,7 +34,7 @@ if (r==true)
 <?php
 if(!isset($_SESSION['ProfessorID']))
 {
-echo "<a href='index.html'>Log in</a>"; 
+echo "<a href='index.html'>Log in<br/></a>"; 
 die("click link to login");
 }
 ?>
