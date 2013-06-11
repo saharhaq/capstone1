@@ -69,6 +69,22 @@ if (r==true)
 ?>
 
 
+<?php
+ session_start();
+ if (empty($_SESSION['employee_id'])) {
+	
+	
+ }
+ else{
+ 
+ 
+ $_SESSION['classcode']= '';
+ 
+ 
+ 
+ ?>
+
+
 
 </table>
 
