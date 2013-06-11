@@ -77,21 +77,24 @@ die("click link to login");
 		
 	echo' <table align="center">
 	<tr>
+	<th>Student ID</th>
 	<th>Download</th>
 	<th>Delete</th>
+	<th>Submission time</th>
+	
 
 </tr>';
 	if($search == "All")	
 	{
-		$sql = "SELECT id,path FROM upload WHERE `Class code` = '".$_GET['TLD']."';";
+		$sql = "SELECT id, studentid, path, `Time submission` FROM upload WHERE `Class code` = '".$_GET['TLD']."';";
 	}
 	else if($search == "ID")	
 	{
-		$sql = "SELECT id,path FROM upload WHERE `studentid` = '".$number."';";
+		$sql = "SELECT  id, studentid, path, `Time submission` FROM upload WHERE `studentid` = '".$number."';";
 	}
 	else if($search == "REF")	
 	{
-		$sql = "SELECT id,path FROM upload ".
+		$sql = "SELECT id, studentid, path, `Time submission` FROM upload ".
 		" INNER JOIN Students ON upload.studentid = Students.StudentID ".
 		" WHERE Students.courseReference = '".$number."';";
 	}
