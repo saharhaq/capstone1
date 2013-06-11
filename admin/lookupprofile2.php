@@ -8,6 +8,13 @@
 </head>
 <body>
   <h2>Profile</h2>
+  
+  
+  
+  <link rel="stylesheet" href="normalize.css">
+ 
+  <link rel="stylesheet" type="text/css" href="new.css">
+  <script src="custom.modernizr.js"></script>
 
 <?php
   $ProfessorID = $_POST['employeecode'];
