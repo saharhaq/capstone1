@@ -95,7 +95,7 @@ die("");
 	else if($search == "ID")	
 	{
 	
-	$sql = " SELECT id, studentid, Entrytime Hours,Activity,Description,Approval FROM Hours  WHERE `studentid` = '".$number."';";
+	$sql = " SELECT id, StudentID, Entrytime Hours,Activity,Description,Approval FROM Hours  WHERE `studentid` = '".$number."';";
 	$sql2 = " SELECT SUM(Hours) AS Hours FROM Hours where `studentid` = '".$number."' AND Approval='Approved'";
 
 	}
