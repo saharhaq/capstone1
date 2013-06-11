@@ -26,7 +26,7 @@ if (r==true)
 <br>RIGHT-CLICK TO DOWNLOAD FILE<br>
 </br>
 </br>
-</br>
+
 
  <form id="form1" action="download.php" method="post">
 <table>
