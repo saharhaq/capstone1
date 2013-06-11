@@ -9,6 +9,8 @@
 
   
   <center style="margin-left:-250px;"><h3>NUR3069L</h3></center>
+  
+  <br/>
  
  <?php
  session_start();
@@ -22,11 +24,7 @@
  $_SESSION['classcode']= 'NUR3069L';
  
  ?>
- </br>
- </br>
- </br>
- </br>
- </br>
+  
     <!--<div align="center"><img src="log.png" style="margin:auto; width:65%;"/></div>-->
 
 
