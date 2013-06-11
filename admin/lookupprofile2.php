@@ -51,7 +51,7 @@
   {
   
 
-  echo 'Thank You.<br />';
+ 
  // echo 'Your first name is : ' . $first_name . '<br />';
   //echo 'Your last name is : ' . $last_name . '<br />';
   //echo 'Your student ID is : ' . $ProfessorID . '<br />';
