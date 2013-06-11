@@ -16,6 +16,7 @@ if (r==true)
 }
 </script>
 
+<center style="margin-left:-250px;">
 <body>
   <h2>Welcome</h2>
 
@@ -64,7 +65,6 @@ if (r==true)
 ?>
 
 
- <a href="logout.php">LOGOUT</a>
 
 </table>
 
