@@ -30,21 +30,7 @@ if (r==true)
   <!----<h2>Welcome</h2>
 
   <p>RN to BSN Student </br></br> </p>----->
-  
-  
-  
-  
-    <h2>Welcome RN to BSN Students</h2>
-  
-  
-    <h3><p> <?php echo  $_SESSION['classcode']; ?></p></h3>
-  
-  
-  
-  
-  
-  
-  
+ 
  
 
 
