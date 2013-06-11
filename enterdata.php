@@ -4,8 +4,8 @@
 ?>
 
   <title>Welcome Hours</title>
-</head>
-<body>
+
+
   <h2>Welcome RN to BSN Students</h2>
   
   
