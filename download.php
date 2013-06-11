@@ -3,7 +3,8 @@
 	require('header1.html');  
 ?>
 
-
+</br>
+</br>
 
 <script>
 function myFunction()
