@@ -5,12 +5,11 @@
 ?>
 
 
-</b>
-</b>
-</b>
-</b>
-</b>
-</b>
+<br/>
+
+<br/>
+
+
 
   <!---<h1>Welcome RN to BSN Students</h1>---->
   
