@@ -56,7 +56,7 @@
   //echo 'Your last name is : ' . $last_name . '<br />';
   //echo 'Your student ID is : ' . $ProfessorID . '<br />';
   
-  echo '<p> create username and password</p>';
+  echo '<p> Create username and password</p>';
   echo '<form method="post" action="lookupprofile2_1.php">';
   echo '<label for="username">Username : </label>';
   echo '<input type="text" name="username" /><br />';
@@ -68,7 +68,7 @@
   
   }
   else{
-  echo'password already set';
+  echo'Password already set';
   } }
   
 ?>
