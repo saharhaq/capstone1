@@ -31,10 +31,7 @@ echo '<br/>';
 echo '<br/>';
 echo '<br/>';
 echo '<br/>';
-echo '<br/>';
-echo '<br/>';
-echo '<br/>';
-echo '<br/>';
+
 
  if (move_uploaded_file($file['tmp_name'], $path)) {
 //echo 'Move succeed';
