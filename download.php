@@ -27,7 +27,7 @@ if (r==true)
 </br>
 </br>
 </br>
-</br>
+
  <form id="form1" action="download.php" method="post">
 <table>
 <tr>
