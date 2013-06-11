@@ -8,6 +8,9 @@
 </b>
 </b>
 </b>
+</b>
+</b>
+</b>
 
   <!---<h1>Welcome RN to BSN Students</h1>---->
   
