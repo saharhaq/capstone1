@@ -19,7 +19,7 @@ if (r==true)
 <center style="margin-left:-250px;">
   <h2>Welcome</h2>
 
-  <p>RN to BSN Student Profile <?php echo  $_SESSION['classcode']; ?></p>
+  <p>RN to BSN Student <?php echo  $_SESSION['classcode']; ?></p>
   <br />
 
 
