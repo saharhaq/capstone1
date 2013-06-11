@@ -15,7 +15,7 @@ session_start();
 
 	// grab the form data
 	$hoursofstudent= mysqli_real_escape_string($dbc, strip_tags($_POST['hoursofstudent']));
-	$activityofstudents = mysqli_real_escape_string($dbc, strip_tags($_POST['activityofstudents']));
+	$activityofstudents = mysqli_real_escape_string($dbc, strip_tags($_POST['activityofstudent']));
 	$description = mysqli_real_escape_string($dbc, strip_tags($_POST['description']));
 	
 
