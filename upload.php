@@ -3,6 +3,11 @@
 	// this auto-magically inserts header.html here
 	require('header1.html');  
 ?>
+
+
+<p> <?php echo  $_SESSION['classcode']; ?></p>
+
+
  <?php
  session_start();
 	$dbc = mysqli_connect('localhost', 'root', 'Capstone', 'NursingHours')
