@@ -4,8 +4,13 @@
 	require('header1.html');  
 ?>
 
+<br/>
+<br/>
+<br/>
+<br/>
 
-<p> <?php echo  $_SESSION['classcode']; ?></p>
+
+ <h3><p> <?php echo  $_SESSION['classcode']; ?></p></h3>
 
 
  <?php
