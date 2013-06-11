@@ -7,6 +7,10 @@
   <title>Admin</title>
 </head>
 <body>
+
+ <h1><img src="BrowardCollegeLogo.png" /></h1>
+
+
   <h2>Admin</h2>
 
 <?php
