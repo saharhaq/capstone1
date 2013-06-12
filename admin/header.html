@@ -27,16 +27,13 @@
     </div>
     <div class="large-9 columns">
       <ul class="inline-list right">
-  <br/>   
- <br/>
- <br/>
 
- <br/>
- <br/> <?php
+
+ <?php
 session_start();
 if (empty($_SESSION['ProfessorID'])) {
-	echo '<li><p>Please log in to continue</p></li>';
-	echo '<li><a href="index.html" class="button">Login here</a></li>';
+	echo '<li style="margin-top:10px;"><p>Please log in to continue</p></li>';
+	echo '<li style="margin-top:10px;">><a href="index.html" class="button">Login here</a></li>';
 	die();
  }
  else {
