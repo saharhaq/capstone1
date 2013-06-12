@@ -53,7 +53,7 @@ mysqli_close($dbc);
 <br>
 <br>
 
-<a href="download.php">Click here to return</a>
+
 
 
 
