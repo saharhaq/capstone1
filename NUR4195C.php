@@ -44,7 +44,7 @@
  </br>
  </br>
  
-
+style="margin:auto;
 <img src="log.png" style="margin:auto; width:75%;"/>
 <br>
 <br>
