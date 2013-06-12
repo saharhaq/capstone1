@@ -18,7 +18,7 @@
  }
  else{
  
- $_SESSION['classcode']= '';
+ $_SESSION['classcode']= 'ASL';
  
  ?>
  </br>
