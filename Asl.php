@@ -18,7 +18,7 @@
  }
  else{
  
- $_SESSION['classcode']= 'NUR3069L';
+ $_SESSION['classcode']= '';
  
  ?>
  </br>
